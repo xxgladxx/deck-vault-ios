@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27ED7B478742B90B4F2F4689 /* Pods_Deck_Vault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FB3399D615CF3ED0106FA4 /* Pods_Deck_Vault.framework */; };
+		850AF3142B5706B100534163 /* CardImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850AF3132B5706B100534163 /* CardImagesViewController.swift */; };
+		850AF3162B57070100534163 /* CardImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850AF3152B57070100534163 /* CardImageCollectionViewCell.swift */; };
+		85129ABD2B5A46CC0028FC97 /* logo-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 85129ABC2B5A46CA0028FC97 /* logo-circle.png */; };
+		85129ABF2B5A481E0028FC97 /* AddInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85129ABE2B5A481E0028FC97 /* AddInputViewController.swift */; };
+		854E24832B5890BA00E24D27 /* SavedDecksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854E24822B5890BA00E24D27 /* SavedDecksViewController.swift */; };
+		854E73BE2B59EFAD00586B19 /* cards in Resources */ = {isa = PBXBuildFile; fileRef = 854E73BD2B59EFAC00586B19 /* cards */; };
+		857E1A3E2B5B634000E3802A /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 857E1A3D2B5B633F00E3802A /* home.jpg */; };
+		857E1A402B5B993700E3802A /* SavedDuelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857E1A3F2B5B993700E3802A /* SavedDuelsViewController.swift */; };
+		85DA2F2E2B57890700BE55EC /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85DA2F2D2B57890600BE55EC /* bg.jpg */; };
+		85DA2F302B57927400BE55EC /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DA2F2F2B57927300BE55EC /* border.png */; };
+		85DA2F362B57A30A00BE55EC /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DA2F352B57A30600BE55EC /* button.png */; };
+		85FD0E772B56063900C6B32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E762B56063900C6B32D /* AppDelegate.swift */; };
+		85FD0E792B56063900C6B32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E782B56063900C6B32D /* SceneDelegate.swift */; };
+		85FD0E7B2B56063900C6B32D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E7A2B56063900C6B32D /* ViewController.swift */; };
+		85FD0E7E2B56063900C6B32D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0E7C2B56063900C6B32D /* Main.storyboard */; };
+		85FD0E802B56064000C6B32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0E7F2B56064000C6B32D /* Assets.xcassets */; };
+		85FD0E832B56064000C6B32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0E812B56064000C6B32D /* LaunchScreen.storyboard */; };
+		85FD0E8E2B56064000C6B32D /* Deck_VaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E8D2B56064000C6B32D /* Deck_VaultTests.swift */; };
+		85FD0E982B56064000C6B32D /* Deck_VaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E972B56064000C6B32D /* Deck_VaultUITests.swift */; };
+		85FD0E9A2B56064000C6B32D /* Deck_VaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0E992B56064000C6B32D /* Deck_VaultUITestsLaunchTests.swift */; };
+		85FD0EAE2B5625DB00C6B32D /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0EA92B5625D000C6B32D /* cards.json */; };
+		85FD0EB32B56266E00C6B32D /* DeckHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0EB22B56266E00C6B32D /* DeckHandler.swift */; };
+		85FD1E572B58D82000B82AB1 /* elixir.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FD1E552B58D81E00B82AB1 /* elixir.png */; };
+		85FD1E582B58D82000B82AB1 /* elixir-cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FD1E562B58D81F00B82AB1 /* elixir-cycle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85FD0E8A2B56064000C6B32D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD0E6B2B56063900C6B32D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FD0E722B56063900C6B32D;
+			remoteInfo = "Deck Vault";
+		};
+		85FD0E942B56064000C6B32D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85FD0E6B2B56063900C6B32D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85FD0E722B56063900C6B32D;
+			remoteInfo = "Deck Vault";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51665749386EE9CD7A4E4ED8 /* Pods-Deck Vault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deck Vault.release.xcconfig"; path = "Target Support Files/Pods-Deck Vault/Pods-Deck Vault.release.xcconfig"; sourceTree = "<group>"; };
+		850AF3132B5706B100534163 /* CardImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImagesViewController.swift; sourceTree = "<group>"; };
+		850AF3152B57070100534163 /* CardImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		85129ABC2B5A46CA0028FC97 /* logo-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-circle.png"; path = "../../logo-circle.png"; sourceTree = "<group>"; };
+		85129ABE2B5A481E0028FC97 /* AddInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInputViewController.swift; sourceTree = "<group>"; };
+		854E24822B5890BA00E24D27 /* SavedDecksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDecksViewController.swift; sourceTree = "<group>"; };
+		854E73BD2B59EFAC00586B19 /* cards */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cards; path = "../../deckapp-ios/assets/cards"; sourceTree = "<group>"; };
+		857E1A3D2B5B633F00E3802A /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = home.jpg; path = ../../home.jpg; sourceTree = "<group>"; };
+		857E1A3F2B5B993700E3802A /* SavedDuelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedDuelsViewController.swift; sourceTree = "<group>"; };
+		85DA2F2D2B57890600BE55EC /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = SOURCE_ROOT; };
+		85DA2F2F2B57927300BE55EC /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border.png; sourceTree = SOURCE_ROOT; };
+		85DA2F352B57A30600BE55EC /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = SOURCE_ROOT; };
+		85FD0E732B56063900C6B32D /* Deck Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deck Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD0E762B56063900C6B32D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85FD0E782B56063900C6B32D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85FD0E7A2B56063900C6B32D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85FD0E7D2B56063900C6B32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85FD0E7F2B56064000C6B32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85FD0E822B56064000C6B32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85FD0E842B56064000C6B32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FD0E892B56064000C6B32D /* Deck VaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck VaultTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD0E8D2B56064000C6B32D /* Deck_VaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_VaultTests.swift; sourceTree = "<group>"; };
+		85FD0E932B56064000C6B32D /* Deck VaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck VaultUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85FD0E972B56064000C6B32D /* Deck_VaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_VaultUITests.swift; sourceTree = "<group>"; };
+		85FD0E992B56064000C6B32D /* Deck_VaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_VaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85FD0EA92B5625D000C6B32D /* cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cards.json; path = "../../deckapp-ios/cards.json"; sourceTree = "<group>"; };
+		85FD0EB22B56266E00C6B32D /* DeckHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckHandler.swift; sourceTree = "<group>"; };
+		85FD1E552B58D81E00B82AB1 /* elixir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elixir.png; path = ../../elixir.png; sourceTree = "<group>"; };
+		85FD1E562B58D81F00B82AB1 /* elixir-cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "elixir-cycle.png"; path = "../../elixir-cycle.png"; sourceTree = "<group>"; };
+		912E6387BF84AFFDF100FDD4 /* Pods-Deck Vault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deck Vault.debug.xcconfig"; path = "Target Support Files/Pods-Deck Vault/Pods-Deck Vault.debug.xcconfig"; sourceTree = "<group>"; };
+		E5FB3399D615CF3ED0106FA4 /* Pods_Deck_Vault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deck_Vault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85FD0E702B56063900C6B32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ED7B478742B90B4F2F4689 /* Pods_Deck_Vault.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E862B56064000C6B32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E902B56064000C6B32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782BAC25C5CBA41B13B4BBAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				912E6387BF84AFFDF100FDD4 /* Pods-Deck Vault.debug.xcconfig */,
+				51665749386EE9CD7A4E4ED8 /* Pods-Deck Vault.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85FD0E6A2B56063900C6B32D = {
+			isa = PBXGroup;
+			children = (
+				85FD0E752B56063900C6B32D /* Deck Vault */,
+				85FD0E8C2B56064000C6B32D /* Deck VaultTests */,
+				85FD0E962B56064000C6B32D /* Deck VaultUITests */,
+				85FD0E742B56063900C6B32D /* Products */,
+				782BAC25C5CBA41B13B4BBAB /* Pods */,
+				B0DCAC07888A4E778FEB2609 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85FD0E742B56063900C6B32D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85FD0E732B56063900C6B32D /* Deck Vault.app */,
+				85FD0E892B56064000C6B32D /* Deck VaultTests.xctest */,
+				85FD0E932B56064000C6B32D /* Deck VaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85FD0E752B56063900C6B32D /* Deck Vault */ = {
+			isa = PBXGroup;
+			children = (
+				85FD0E762B56063900C6B32D /* AppDelegate.swift */,
+				85FD0EA92B5625D000C6B32D /* cards.json */,
+				854E73BD2B59EFAC00586B19 /* cards */,
+				85FD0EB22B56266E00C6B32D /* DeckHandler.swift */,
+				85FD0E782B56063900C6B32D /* SceneDelegate.swift */,
+				85FD0E7A2B56063900C6B32D /* ViewController.swift */,
+				857E1A3F2B5B993700E3802A /* SavedDuelsViewController.swift */,
+				85129ABE2B5A481E0028FC97 /* AddInputViewController.swift */,
+				854E24822B5890BA00E24D27 /* SavedDecksViewController.swift */,
+				850AF3132B5706B100534163 /* CardImagesViewController.swift */,
+				85DA2F2F2B57927300BE55EC /* border.png */,
+				85DA2F2D2B57890600BE55EC /* bg.jpg */,
+				85129ABC2B5A46CA0028FC97 /* logo-circle.png */,
+				857E1A3D2B5B633F00E3802A /* home.jpg */,
+				850AF3152B57070100534163 /* CardImageCollectionViewCell.swift */,
+				85DA2F352B57A30600BE55EC /* button.png */,
+				85FD0E7C2B56063900C6B32D /* Main.storyboard */,
+				85FD0E7F2B56064000C6B32D /* Assets.xcassets */,
+				85FD1E562B58D81F00B82AB1 /* elixir-cycle.png */,
+				85FD1E552B58D81E00B82AB1 /* elixir.png */,
+				85FD0E812B56064000C6B32D /* LaunchScreen.storyboard */,
+				85FD0E842B56064000C6B32D /* Info.plist */,
+			);
+			path = "Deck Vault";
+			sourceTree = "<group>";
+		};
+		85FD0E8C2B56064000C6B32D /* Deck VaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				85FD0E8D2B56064000C6B32D /* Deck_VaultTests.swift */,
+			);
+			path = "Deck VaultTests";
+			sourceTree = "<group>";
+		};
+		85FD0E962B56064000C6B32D /* Deck VaultUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85FD0E972B56064000C6B32D /* Deck_VaultUITests.swift */,
+				85FD0E992B56064000C6B32D /* Deck_VaultUITestsLaunchTests.swift */,
+			);
+			path = "Deck VaultUITests";
+			sourceTree = "<group>";
+		};
+		B0DCAC07888A4E778FEB2609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB3399D615CF3ED0106FA4 /* Pods_Deck_Vault.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85FD0E722B56063900C6B32D /* Deck Vault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD0E9D2B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck Vault" */;
+			buildPhases = (
+				4829768A87E3022967466D76 /* [CP] Check Pods Manifest.lock */,
+				85FD0E6F2B56063900C6B32D /* Sources */,
+				85FD0E702B56063900C6B32D /* Frameworks */,
+				85FD0E712B56063900C6B32D /* Resources */,
+				00D03D3832B02A442DF4703F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deck Vault";
+			productName = "Deck Vault";
+			productReference = 85FD0E732B56063900C6B32D /* Deck Vault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85FD0E882B56064000C6B32D /* Deck VaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD0EA02B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck VaultTests" */;
+			buildPhases = (
+				85FD0E852B56064000C6B32D /* Sources */,
+				85FD0E862B56064000C6B32D /* Frameworks */,
+				85FD0E872B56064000C6B32D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FD0E8B2B56064000C6B32D /* PBXTargetDependency */,
+			);
+			name = "Deck VaultTests";
+			productName = "Deck VaultTests";
+			productReference = 85FD0E892B56064000C6B32D /* Deck VaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85FD0E922B56064000C6B32D /* Deck VaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85FD0EA32B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck VaultUITests" */;
+			buildPhases = (
+				85FD0E8F2B56064000C6B32D /* Sources */,
+				85FD0E902B56064000C6B32D /* Frameworks */,
+				85FD0E912B56064000C6B32D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85FD0E952B56064000C6B32D /* PBXTargetDependency */,
+			);
+			name = "Deck VaultUITests";
+			productName = "Deck VaultUITests";
+			productReference = 85FD0E932B56064000C6B32D /* Deck VaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85FD0E6B2B56063900C6B32D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					85FD0E722B56063900C6B32D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					85FD0E882B56064000C6B32D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 85FD0E722B56063900C6B32D;
+					};
+					85FD0E922B56064000C6B32D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 85FD0E722B56063900C6B32D;
+					};
+				};
+			};
+			buildConfigurationList = 85FD0E6E2B56063900C6B32D /* Build configuration list for PBXProject "Deck Vault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85FD0E6A2B56063900C6B32D;
+			productRefGroup = 85FD0E742B56063900C6B32D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85FD0E722B56063900C6B32D /* Deck Vault */,
+				85FD0E882B56064000C6B32D /* Deck VaultTests */,
+				85FD0E922B56064000C6B32D /* Deck VaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85FD0E712B56063900C6B32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854E73BE2B59EFAD00586B19 /* cards in Resources */,
+				85DA2F302B57927400BE55EC /* border.png in Resources */,
+				85DA2F362B57A30A00BE55EC /* button.png in Resources */,
+				85FD0E832B56064000C6B32D /* LaunchScreen.storyboard in Resources */,
+				857E1A3E2B5B634000E3802A /* home.jpg in Resources */,
+				85129ABD2B5A46CC0028FC97 /* logo-circle.png in Resources */,
+				85FD0E802B56064000C6B32D /* Assets.xcassets in Resources */,
+				85FD0EAE2B5625DB00C6B32D /* cards.json in Resources */,
+				85FD1E582B58D82000B82AB1 /* elixir-cycle.png in Resources */,
+				85DA2F2E2B57890700BE55EC /* bg.jpg in Resources */,
+				85FD1E572B58D82000B82AB1 /* elixir.png in Resources */,
+				85FD0E7E2B56063900C6B32D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E872B56064000C6B32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E912B56064000C6B32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D03D3832B02A442DF4703F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deck Vault/Pods-Deck Vault-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deck Vault/Pods-Deck Vault-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deck Vault/Pods-Deck Vault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4829768A87E3022967466D76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deck Vault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85FD0E6F2B56063900C6B32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854E24832B5890BA00E24D27 /* SavedDecksViewController.swift in Sources */,
+				85FD0EB32B56266E00C6B32D /* DeckHandler.swift in Sources */,
+				85FD0E7B2B56063900C6B32D /* ViewController.swift in Sources */,
+				850AF3142B5706B100534163 /* CardImagesViewController.swift in Sources */,
+				850AF3162B57070100534163 /* CardImageCollectionViewCell.swift in Sources */,
+				85FD0E772B56063900C6B32D /* AppDelegate.swift in Sources */,
+				85FD0E792B56063900C6B32D /* SceneDelegate.swift in Sources */,
+				857E1A402B5B993700E3802A /* SavedDuelsViewController.swift in Sources */,
+				85129ABF2B5A481E0028FC97 /* AddInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E852B56064000C6B32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD0E8E2B56064000C6B32D /* Deck_VaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FD0E8F2B56064000C6B32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FD0E9A2B56064000C6B32D /* Deck_VaultUITestsLaunchTests.swift in Sources */,
+				85FD0E982B56064000C6B32D /* Deck_VaultUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85FD0E8B2B56064000C6B32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FD0E722B56063900C6B32D /* Deck Vault */;
+			targetProxy = 85FD0E8A2B56064000C6B32D /* PBXContainerItemProxy */;
+		};
+		85FD0E952B56064000C6B32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85FD0E722B56063900C6B32D /* Deck Vault */;
+			targetProxy = 85FD0E942B56064000C6B32D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85FD0E7C2B56063900C6B32D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85FD0E7D2B56063900C6B32D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85FD0E812B56064000C6B32D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85FD0E822B56064000C6B32D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85FD0E9B2B56064000C6B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85FD0E9C2B56064000C6B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85FD0E9E2B56064000C6B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912E6387BF84AFFDF100FDD4 /* Pods-Deck Vault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deck Vault/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85FD0E9F2B56064000C6B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51665749386EE9CD7A4E4ED8 /* Pods-Deck Vault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Deck Vault/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85FD0EA12B56064000C6B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-VaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck Vault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deck Vault";
+			};
+			name = Debug;
+		};
+		85FD0EA22B56064000C6B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-VaultTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck Vault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deck Vault";
+			};
+			name = Release;
+		};
+		85FD0EA42B56064000C6B32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-VaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deck Vault";
+			};
+			name = Debug;
+		};
+		85FD0EA52B56064000C6B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 653JC4L754;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gladtesting.Deck-VaultUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deck Vault";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85FD0E6E2B56063900C6B32D /* Build configuration list for PBXProject "Deck Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD0E9B2B56064000C6B32D /* Debug */,
+				85FD0E9C2B56064000C6B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD0E9D2B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD0E9E2B56064000C6B32D /* Debug */,
+				85FD0E9F2B56064000C6B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD0EA02B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck VaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD0EA12B56064000C6B32D /* Debug */,
+				85FD0EA22B56064000C6B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85FD0EA32B56064000C6B32D /* Build configuration list for PBXNativeTarget "Deck VaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FD0EA42B56064000C6B32D /* Debug */,
+				85FD0EA52B56064000C6B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85FD0E6B2B56063900C6B32D /* Project object */;
+}
